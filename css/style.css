@@ -1,2 +1,34 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #4e4d5c;
+  height: 50px;
+  width: 100vw; }
+  nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 16px; }
+    nav ul li:hover {
+      background-color: #805e73; }
+    nav ul a {
+      color: #e9d2f4; }
+
 html {
-  background-color: #000; }
+  background-color: #fbf7ef; }
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: -10000px; }
+
+header {
+  margin-top: 50px; }
+
+.page-footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #f6eddb; }

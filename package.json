@@ -4,7 +4,9 @@
   "description": "Submission for style stage",
   "main": "index.js",
   "scripts": {
-    "compile": "gulp sass"
+    "commit": "cz",
+    "compile": "gulp sass",
+    "watch": "gulp sass:watch"
   },
   "repository": {
     "type": "git",
