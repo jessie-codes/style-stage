@@ -1,3 +1,6 @@
-html {
-  background-color: #000;
-}
+@import './variables.scss';
+
+@import './nav.scss';
+@import './base.scss';
+@import './header.scss';
+@import './footer.scss';

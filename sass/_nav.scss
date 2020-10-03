@@ -1,0 +1,24 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $independence;
+  height: 50px;
+  width: 100vw;
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 16px;
+
+    li {
+      &:hover {
+        background-color: $mauve;
+      }
+    }
+
+    a {
+      color: $thistle;
+    }
+  }
+}
